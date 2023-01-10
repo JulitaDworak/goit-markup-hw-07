@@ -1,0 +1,36 @@
+
+
+@use "./utils/variables.scss";
+@import "./components/header";
+@import "./components/order-container";
+@import "./components/description-container";
+@import "./components/what-we-do";
+@import "./components/team-container";
+@import "./components/client-section";
+@import "./components/footer";
+
+  body {
+  font-family:var(--main-font-style);
+    color: var(--main-font-color);
+    box-sizing:border-box;
+}
+  a{
+    position:relative;
+  }
+  body a {
+    text-decoration: none;
+  }
+  body ul {
+    list-style-type: none;
+  }
+
+  .container {
+    width: 1200px;
+    margin: 0px auto;
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
