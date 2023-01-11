@@ -113,6 +113,8 @@ margin-top: 0;
   outline: none;
 }
 
+
+
 .header__nav-main-logo--span {
   font-family: var(--second-font-style);
   font-weight: var(--logo-font-weight);
@@ -831,7 +833,7 @@ display: flex;
  
   }
   
-  .footer-form__description{
+  .footer__form--description{
   box-sizing: border-box;   
   text-transform: uppercase;
   margin-right: 12px;
