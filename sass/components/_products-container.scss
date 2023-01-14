@@ -4,9 +4,8 @@
     flex-direction: row;
     margin-left: 0;
     cursor: pointer;
-&__product-grid{
-    position: relative;
-}    
+    margin-bottom: 94px;
+   
 &__product{
   position:relative;
   display: grid;
@@ -18,25 +17,26 @@
   margin: 0;
   padding: 0;
   justify-content: space-around;
+
     &--content{
         margin: 0;
         padding: 0;
         &:hover{
-            box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16); 
+        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16); 
         }
     }
     &--presentation{
         margin: 0;
         padding: 0;
         &:hover{
-            box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16); 
+        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16); 
         }
     }
     &--slide{
         position:relative;
         overflow: hidden;
-        width: 370px;
-        height: 294px;
+        width: 100%;
+        height: 100%;
         margin-left: auto;
       margin-right: auto;
 
@@ -66,11 +66,8 @@
         text-align: left;  
     }
 
-
-
     &--description{
         display: block;
-        /* position: relative; */
         top:300px;
         width: 100%;
         justify-content: start;

@@ -8,11 +8,13 @@
     text-align: center;
     vertical-align: top;
     letter-spacing: 3%;
+    margin-top: 94px;
 }
 
 &__container{
     display: flex;
     margin-top:50px;
+    margin-bottom: 94px;
     gap: 30px;
     align-items: center;
     padding-left: 0;
@@ -36,7 +38,6 @@ outline: none;
 &:focus{
         border:1px solid #2196F3;
 }
-
 }
 
 &__icons{
@@ -51,5 +52,6 @@ outline: none;
         fill:#2196F3;
     }
 }
-
 }
+
+

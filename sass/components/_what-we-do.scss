@@ -1,7 +1,8 @@
 .what-we-do{
     &__container{
     justify-content: space-between;
-    margin-bottom: 0;}
+
+  }
 
     &__description{
         font-weight: var(--h2-font-weight);
@@ -19,7 +20,7 @@
     &__products{
   display: flex;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 94px;
   padding: 0;
   justify-content: space-between;
   column-gap: 30px;

@@ -20,32 +20,35 @@
 </head>
 
 <body>
-    <header >
-        <div class="container ">
-        <div class="header">
-        <nav class="header__nav-main-logo-container">
-<a class=" header__nav-main-logo-container--header link" href="index.html"><span class="header__nav-main-logo-container--span">Web</span>Studio</a>
-<a class="header__nav-item header__nav-item--first-item active link " href="index.html">Agencja</a>
-<a class="header__nav-item header__nav-item--second-item link " href="portfolio.html">Portfolio</a>
-<a class="header__nav-item  header__nav-item--third-item link " href="kontakt.html">Kontakt</a>
-            
+    <header class="header-border">
+        <div class="container container--header ">
+        <nav class="nav-main">
+<a class="nav-main__logo"   href="index.html"><span class="nav-main__logo--blue">Web</span>Studio</a>
+<ul class="nav-main__links">
+    <li><a class="nav-main__links-item nav-main__links-item--underline" href="index.html">Agencja</a></li
+    <li><a class="nav-main__links-item " href="portfolio.html">Portfolio</a></li>
+    <li><a class="nav-main__links-item " href="kontakt.html">Kontakt</a>
+    </li>
+</ul>                
         </nav>
-        <ul class="header__nav-contact-container">
-            <li>    
-                <div >
-            <a class="header__nav-contact-container--mail link" href="mailto:info@webstudio.com">
-                <svg  width="24" height="18" class=" header__nav-contact-container--icon-mail">
-                <use  href="./images/icons.svg#icon-envelope"></use>
-            </svg>info@webstudio.com</a>
-            </li>
-            <li>
-            <a class="header__nav-contact-container--tel link" href="tel:+48111111111">
-                <svg class="header__nav-contact-container--icon-tel" width="16" height="23" >
-                <use href="./images/icons.svg#icon-smartphone"></use>
-                </svg>+48 111 111 111</a>
-                </div>
-            </li>
-        </ul>
+        <div class="contacts-links" >
+<ul class="contacts-links__container">
+<li class="contacts-links__list" >                
+<a class="contacts-links__item" href="mailto:info@webstudio.com">
+<svg  width="24" height="18" class="contacts-links__icon">
+<use  href="./images/icons.svg#icon-envelope"></use>
+</svg>info@webstudio.com</a>
+</li>
+
+<li>                
+<a class="contacts-links__item" href="tel:+48111111111">
+<svg class="contacts-links__icon" width="16" height="23" >
+<use href="./images/icons.svg#icon-smartphone"></use>
+</svg>+48 111 111 111</a>
+</ul>
+</li>
+
+    </div>
     </div>
 </header>
     <main>
@@ -63,7 +66,7 @@
         <!-- wizualizacje  -->
         <div class="products-container ">
             <!-- <div class="container"> -->
-                <ul class="products-container__product  products-container__products-grid ">
+                <ul class="products-container__product ">
                     <li class="products-container__product--content">
                         <figure class= "products-container__product--presentation ">   
                      <div>                      
@@ -204,7 +207,7 @@
             <p class="footer__join-us--description">dołącz do nas</p>
         <ul class="footer__join-us--social-media-icons" >
             <li class="footer__join-us--social-media-icons">
-                <a class="footer__join-us--social-media-icons-insta"  href="https://www.instagram.com/">
+                <a class="footer__join-us--social-media-icons-all"  href="https://www.instagram.com/">
                     <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram">
                         </use>
@@ -212,7 +215,7 @@
                   </a>
             </li>
             <li class="footer__join-us--social-media-icons">
-                <a class="footer__join-us--social-media-icons-twitt" href="https://twitter.com/?lang=pl">
+                <a class="footer__join-us--social-media-icons-all" href="https://twitter.com/?lang=pl">
                     <svg  width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter">
                         </use>
@@ -220,7 +223,7 @@
                 </a>
             </li>
             <li class="footer__join-us--social-media-icons" >
-                <a class="footer__join-us--social-media-icons-fb" href="https://www.facebook.com/">
+                <a class="footer__join-us--social-media-icons-all" href="https://www.facebook.com/">
                     <svg class="sm-icons-fb" width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook">
                         </use>
@@ -228,7 +231,7 @@
                     </a>
                 </li>
             <li class="footer__join-us--social-media-icons" >
-                <a class="footer__join-us--social-media-icons-li" href="https://www.linkedin.com/">
+                <a class="footer__join-us--social-media-icons-all" href="https://www.linkedin.com/">
                     <svg class="sm-icons-li" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin">
                         </use>

@@ -21,32 +21,35 @@
 </head>
 
 <body>
-    <header >
-            <div class="container ">
-            <div class="header">
-            <nav class="header__nav-main-logo-container">
-    <a class=" header__nav-main-logo-container--header link" href="index.html"><span class="header__nav-main-logo-container--span">Web</span>Studio</a>
-    <a class="header__nav-item header__nav-item--first-item active link " href="#">Agencja</a>
-    <a class="header__nav-item header__nav-item--second-item link " href="portfolio.html">Portfolio</a>
-    <a class="header__nav-item  header__nav-item--third-item link " href="kontakt.html">Kontakt</a>
-                
+    <header class="header-border">
+            <div class="container container--header ">
+            <nav class="nav-main">
+    <a class="nav-main__logo"   href="index.html"><span class="nav-main__logo--blue">Web</span>Studio</a>
+    <ul class="nav-main__links">
+        <li><a class="nav-main__links-item nav-main__links-item--underline" href="#">Agencja</a></li>
+        <li><a class="nav-main__links-item " href="portfolio.html">Portfolio</a></li>
+        <li><a class="nav-main__links-item " href="kontakt.html">Kontakt</a>
+        </li>
+    </ul>                
             </nav>
-            <ul class="header__nav-contact-container">
-                <li>    
-                    <div >
-                <a class="header__nav-contact-container--mail link" href="mailto:info@webstudio.com">
-                    <svg  width="24" height="18" class=" header__nav-contact-container--icon-mail">
-                    <use  href="./images/icons.svg#icon-envelope"></use>
-                </svg>info@webstudio.com</a>
-                </li>
-                <li>
-                <a class="header__nav-contact-container--tel link" href="tel:+48111111111">
-                    <svg class="header__nav-contact-container--icon-tel" width="16" height="23" >
-                    <use href="./images/icons.svg#icon-smartphone"></use>
-                    </svg>+48 111 111 111</a>
-                    </div>
-                </li>
-            </ul>
+            <div class="contacts-links" >
+    <ul class="contacts-links__container">
+<li class="contacts-links__list" >                
+    <a class="contacts-links__item" href="mailto:info@webstudio.com">
+    <svg  width="24" height="18" class="contacts-links__icon">
+    <use  href="./images/icons.svg#icon-envelope"></use>
+</svg>info@webstudio.com</a>
+</li>
+
+<li>                
+    <a class="contacts-links__item" href="tel:+48111111111">
+    <svg class="contacts-links__icon" width="16" height="23" >
+    <use href="./images/icons.svg#icon-smartphone"></use>
+    </svg>+48 111 111 111</a>
+    </ul>
+</li>
+
+        </div>
         </div>
     </header>
     <main>
@@ -59,7 +62,6 @@
     </div>
         <!-- opisy -->
         <div class="container">
-        <div class="description-container">
                         <ul class="description-container" >
                 <li>
                     <div class="description-container__icons">  
@@ -119,7 +121,7 @@
                 </li>
             </ul>
         </div>
-        </div>
+
              <!-- czym się zajmujemy -->           
         <section class="section what-we-do">
             <div class="container what-we-do__container">
@@ -153,7 +155,7 @@
                     <div class="team-container__social-media">
                        <li class="team-container__social-media--icons">
                           <a href="https://www.instagram.com/">
-                            <svg class="team-container__social-media--icons-insta" width="20" height="20">
+                            <svg class="team-container__social-media--icons-all" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram">
                                 </use>
                             </svg>
@@ -161,15 +163,15 @@
                         </li>
                         <li class="team-container__social-media--icons">
                         <a href="https://twitter.com/?lang=pl">
-                            <svg class="team-container__social-media--twitt" width="20" height="20">
+                            <svg class="team-container__social-media--icons-all" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="team-container__social-media--icons">
+                    <li class="team-container__social-media--icons" >
                             <a href="https://www.facebook.com/">
-                            <svg class="team-container__social-media--fb" width="20" height="20">
+                            <svg class="team-container__social-media--icons-all" width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook">
                                 </use>
                             </svg>
@@ -177,7 +179,7 @@
                     </li>
                     <li class="team-container__social-media--icons">
                             <a href="https://www.linkedin.com/">
-                            <svg class="team-container__social-media--li" width="20" height="20">
+                            <svg class="team-container__social-media--icons-all" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin">
                                 </use>
                             </svg>
@@ -195,7 +197,7 @@
                         <div class="team-container__social-media">
                             <li class="team-container__social-media--icons">
                                <a href="https://www.instagram.com/">
-                                 <svg class="team-container__social-media--insta" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-instagram">
                                      </use>
                                  </svg>
@@ -203,15 +205,15 @@
                              </li>
                              <li class="team-container__social-media--icons">
                              <a href="https://twitter.com/?lang=pl">
-                                 <svg class="team-container__social-media--twitt" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-twitter">
                                      </use>
                                  </svg>
                              </a>
                          </li>
-                         <li class="team-container__social-media--icons">
+                         <li class="team-container__social-media--icons" >
                                  <a href="https://www.facebook.com/">
-                                 <svg class="team-container__social-media--fb" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-facebook">
                                      </use>
                                  </svg>
@@ -219,7 +221,7 @@
                          </li>
                          <li class="team-container__social-media--icons">
                                  <a href="https://www.linkedin.com/">
-                                 <svg class="team-container__social-media--li" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-linkedin">
                                      </use>
                                  </svg>
@@ -236,7 +238,7 @@
                         <div class="team-container__social-media">
                             <li class="team-container__social-media--icons">
                                <a href="https://www.instagram.com/">
-                                 <svg class="sm-icons-insta" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-instagram">
                                      </use>
                                  </svg>
@@ -244,15 +246,15 @@
                              </li>
                              <li class="team-container__social-media--icons">
                              <a href="https://twitter.com/?lang=pl">
-                                 <svg class="sm-icons-twitt" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-twitter">
                                      </use>
                                  </svg>
                              </a>
                          </li>
-                         <li class="team-container__social-media--icons">
+                         <li class="team-container__social-media--icons" >
                                  <a href="https://www.facebook.com/">
-                                 <svg class="sm-icons-fb" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-facebook">
                                      </use>
                                  </svg>
@@ -260,7 +262,7 @@
                          </li>
                          <li class="team-container__social-media--icons">
                                  <a href="https://www.linkedin.com/">
-                                 <svg class="sm-icons-li" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-linkedin">
                                      </use>
                                  </svg>
@@ -278,7 +280,7 @@
                         <div class="team-container__social-media">
                             <li class="team-container__social-media--icons">
                                <a href="https://www.instagram.com/">
-                                 <svg class="sm-icons-insta" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-instagram">
                                      </use>
                                  </svg>
@@ -286,15 +288,15 @@
                              </li>
                              <li class="team-container__social-media--icons">
                              <a href="https://twitter.com/?lang=pl">
-                                 <svg class="sm-icons-twitt" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-twitter">
                                      </use>
                                  </svg>
                              </a>
                          </li>
-                         <li class="team-container__social-media--icons">
+                         <li class="team-container__social-media--icons" >
                                  <a href="https://www.facebook.com/">
-                                 <svg class="sm-icons-fb" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-facebook">
                                      </use>
                                  </svg>
@@ -302,7 +304,7 @@
                          </li>
                          <li class="team-container__social-media--icons">
                                  <a href="https://www.linkedin.com/">
-                                 <svg class="sm-icons-li" width="20" height="20">
+                                 <svg class="team-container__social-media--icons-all" width="20" height="20">
                                      <use href="./images/icons.svg#icon-linkedin">
                                      </use>
                                  </svg>
@@ -321,8 +323,8 @@
             <ul class="client__container ">
                 <li> 
                 <div class="client__icons-container">
-                    <a href="">
-                <svg class="client__icons" width="106" height="60">
+                    <a class="client__icons" href="">
+                <svg class="client__icon-all" width="106" height="60">
                 <use href="./images/icons.svg#icon-yaco">
               </use>
              </svg>
@@ -331,8 +333,8 @@
             </li>
             <li>
                     <div class="client__icons-container">
-                        <a href="">
-                    <svg class="client__icons" width="106" height="60">
+                        <a class="client__icons" href="">
+                    <svg class="client__icons-all" width="106" height="60">
                         <use href="./images/icons.svg#icon-group-11">
                         </use>
                     </svg>
@@ -409,7 +411,7 @@
             <p class="footer__join-us--description">dołącz do nas</p>
         <ul class="footer__join-us--social-media-icons" >
             <li class="footer__join-us--social-media-icons">
-                <a class="footer__join-us--social-media-icons-insta"  href="https://www.instagram.com/">
+                <a class="footer__join-us--social-media-icons-all"  href="https://www.instagram.com/">
                     <svg width="20" height="20">
                         <use href="./images/icons.svg#icon-instagram">
                         </use>
@@ -417,7 +419,7 @@
                   </a>
             </li>
             <li class="footer__join-us--social-media-icons">
-                <a class="footer__join-us--social-media-icons-twitt" href="https://twitter.com/?lang=pl">
+                <a class="footer__join-us--social-media-icons-all" href="https://twitter.com/?lang=pl">
                     <svg  width="20" height="20">
                         <use href="./images/icons.svg#icon-twitter">
                         </use>
@@ -425,7 +427,7 @@
                 </a>
             </li>
             <li class="footer__join-us--social-media-icons" >
-                <a class="footer__join-us--social-media-icons-fb" href="https://www.facebook.com/">
+                <a class="footer__join-us--social-media-icons-all" href="https://www.facebook.com/">
                     <svg class="sm-icons-fb" width="20" height="20">
                         <use href="./images/icons.svg#icon-facebook">
                         </use>
@@ -433,7 +435,7 @@
                     </a>
                 </li>
             <li class="footer__join-us--social-media-icons" >
-                <a class="footer__join-us--social-media-icons-li" href="https://www.linkedin.com/">
+                <a class="footer__join-us--social-media-icons-all" href="https://www.linkedin.com/">
                     <svg class="sm-icons-li" width="20" height="20">
                         <use href="./images/icons.svg#icon-linkedin">
                         </use>
@@ -449,7 +451,7 @@
             <label class="footer__form--description" for="email">zapisz się do newslettera
                 <input class="footer__form--input" type="email" name="email" id="email" placeholder="E-mail">
             </label>
-            <bottom class="footer__form--input-send-btn send-btn-newsletter" type="submit">Zapisz się 
+            <bottom class="footer__form--input-send-btn" type="submit">Zapisz się 
                 <svg class="footer__form--input-send-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-iconsend"></use>
                 </svg>
@@ -461,53 +463,56 @@
 </div>
 </div>
 
+
+
 <div class="overlay is-hidden" data-modal>       
     <div class="modal" >  
         <form class="form-modal">
-<h3 class="form-modal-name"> Zostaw swoje dane w formularzu poniżej</h3>
+<h3 class="form-modal__name"> Zostaw swoje dane w formularzu poniżej</h3>
 
-<label for="customer_name"> Imie </label>
-<div class="form-inputs">
-    <input type="name"  name="name" id="customer_name" />
-    <svg class="form-icon-person" width="16" height="16"> 
+<label for="customer_name"> Imie 
+<div >
+    <input class="form-modal__form-inputs" type="name"  name="name" id="customer_name" />
+    <svg class="form-modal__form-icon" width="16" height="16"> 
         <use  href="./images/icons.svg#icon-person-black-18dp-1"> </use>
     </svg>
 </div>
-
+</label>
 
 <label for="customer_tel">
     Telefon 
-    <div class="form-inputs">
-    <input type="telephone"  name="phone" id="customer_tel" />
-    <svg class="form-icon-phone" width="17" height="17"> 
+    <div >
+    <input class="form-modal__form-inputs" type="telephone"  name="phone" id="customer_tel" />
+    <svg class="form-modal__form-icon" width="17" height="17"> 
         <use href="./images/icons.svg#icon-phone-black-18dp-1"> </use>
     </svg>
 </div>
 </label>
 <label for="customer_mail">
     Email 
-    <div class="form-inputs">
-    <input type="mail"  name="mail" id="customer_mail" />
-    <svg class="form-icon-mail" width="20" height="16"> 
+    <div >
+    <input class="form-modal__form-inputs" type="mail"  name="mail" id="customer_mail" />
+    <svg class="form-modal__form-icon" width="20" height="16"> 
         <use href="./images/icons.svg#icon-email-black-18dp-1"> </use>
     </svg>
 </div>
 </label>
 <label for="customer_comment">
     Komentarz 
-    <div class="form-inputs-comment">
-    <input  type="text"  name="comment" placeholder="Wprowadź tekst" id="customer_comment" />
+    <div >
+    <input class="form-modal__form-inputs-comments" type="text"  name="comment" placeholder="Wprowadź tekst" id="customer_comment" />
 </div>
 </label>
-<label for="button_send">
-<div class="chbx-form">
-    <div class="chbx-priv-accept">
-        <input type="checkbox" id="button_send"></input> 
+
+<label for="accept">    Oświadczam iż akceptuję  <span class="modal-span"> Regulamin </span> i <span class="modal-span"> Politykę prywatności</span>
+<div class="chbx-form"> 
+    <div class="chbx-form__priv-accept">
+        <input type="chbx-form__checkbox" id="accept"></input> 
     <svg width="16" height="15">   
         <use href="./images/icons.svg#icon-icon-check"></use>
     </svg>
     </div>
-    Oświadczam iż akceptuję  <span class="modal-span"> Regulamin </span> i <span class="modal-span"> Politykę prywatności</span>
+
 </div>
 </label>
 

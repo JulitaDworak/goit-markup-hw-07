@@ -145,7 +145,7 @@ margin-top: 0;
   left:2px;
 }
 .active::before{
-  content:"";
+content:"";
 position: absolute;
 }
 .active:after{

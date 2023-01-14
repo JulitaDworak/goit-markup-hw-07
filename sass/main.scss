@@ -10,6 +10,7 @@
 @import "./components/footer";
 @import "./components/filter-btn";
 @import "./components/products-container";
+@import "./components/modal";
 
   body {
   font-family:var(--main-font-style);
@@ -29,10 +30,16 @@
   .container {
     width: 1200px;
     margin: 0px auto;
+    
+    &--header{
+      display: flex;
+      align-items: center;
+      margin-top: 24px;
+      margin-bottom: 25px;
   }
   
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  
+}
