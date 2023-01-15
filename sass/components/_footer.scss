@@ -1,47 +1,45 @@
-
-
-.footer_container{
+.footer-container{
     display: flex;
     background-color: var(--footer-bcg-color);
     letter-spacing: 0.03em;
     padding-top: 60px;
     padding-bottom: 60px;
-
 }
+
 .footer{
     display: flex;
     background-color: var(--footer-bcg-color);
-    &__info{
-        
-        &--logo{
-            @extend %header-logo-theme;
-            // font-family: var(--second-font-style);
-            // font-weight: var(--logo-font-weight);
-            // font-size: var(--logo-font-size);
-            // line-height: var(--logo-line-height);
-            color: rgba(255, 255, 255, 1);
-            &:hover{
-                @extend %hover;  
-                }
-                &:focus{
-                @extend %focus;  
-                }
-        }
-        &--logo-span{
-            @extend %header-logo-theme;
-            color: rgba(33, 150, 243, 1);
-        }
 
-&--items{
+&__logo{
+    @extend %header-logo-theme;
+    color: rgba(255, 255, 255, 1);
+    &:hover{
+        @extend %hover;  
+        }
+        &:focus{
+        @extend %focus;  
+        }
+}
+&__logo-span{
+    @extend %header-logo-theme;
+    color: rgba(33, 150, 243, 1);
+}
+}
+.footer-data{
+    padding: 0px;
+    margin-top: 20px;
+&__info-items{
     font-style: normal;
     font-size: var(--footer-font-size);
     line-height: 1.71;
-    margin-top: 20px;
+    
     margin-bottom: 0px;
     padding-left: 0;
 }
+}
 
-        &--localization{
+
+&__localization{
             display: flex;
             font-size: var(--footer-font-size);
             line-height: var(--footer-line-height);
@@ -49,7 +47,7 @@
             padding-bottom: 9px;
         }
 
-        &--mail{
+&__mail{
             font-size: var(--footer-font-size);
             line-height: var(--footer-line-height);
             color: var(--footer-email-tel-color);
@@ -62,7 +60,7 @@
                 @extend %focus;  
                 }
         }
-        &--tel{
+        &__tel{
             font-size: var(--footer-font-size);
             line-height: var(--footer-line-height);
             color: var(--footer-email-tel-color);
@@ -74,12 +72,16 @@
                 @extend %focus;  
                 }
         }
-    }
-&__join-us{
+    
+
+
+
+
+.footer-join-us{
     display: block;
     margin-left: 70px;
 
-    &--description{
+    &__description{
         text-transform: uppercase;
         font-family: 'Roboto', sans-serif;
         font-style: bold;
@@ -89,7 +91,9 @@
         color: #ffffff;
         letter-spacing: 3%;
     }
-&--social-media-icons{
+}
+
+&__join-us-social-media-icons{
 display: flex;
 //   margin-right: 32px;
   margin-top: 16px;
@@ -124,7 +128,7 @@ display: flex;
     outline: none;
         }
 }
-}  
+
 
 &__form{
     position:relative;
@@ -188,5 +192,4 @@ display: flex;
                 fill:#FFFFFF;
                 margin-left: 24px;
             }
-}
 }
