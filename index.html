@@ -7,10 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-        <link rel="stylesheet" href="modern-normalize.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+        <link rel="stylesheet" href="css/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -503,23 +500,19 @@
 </div>
 </label>
 
-<div class="chbx-text"> 
-    <div class="chbx-form__priv-accept">
-        <input class="chbx-form" class="chbx-form__checkbox" type="checkbox" id="accept"></input> 
-    <svg class="chbx-form__checkbox-checked" width="16" height="15">   
-        <use href="./images/icons.svg#icon-icon-check"></use>
-    </svg>
-    </div>   
-     <div class="chbx-label">
-    <label  for="accept">    Oświadczam iż akceptuję  <span class="modal-span"> Regulamin </span> i <span class="modal-span"> Politykę prywatności</span>
-   
+<!-- <div class="chbx-text">  -->
+<div class="chbx-form">
+<div class="chbx-form__priv-accept">
+ <label class="chbx-form__checkbox" > 
+        <input type="checkbox" id="accept"></input> 
+
+Oświadczam iż akceptuję  <span class="modal-span"> Regulamin </span> i <span class="modal-span"> Politykę prywatności</span>
+<svg class="chbx-form__checkbox-checked" width="16" height="15">   
+     <use href="./images/icons.svg#icon-icon-check"></use>
+ </svg></label>
+</div>
 </div>
 
-
-
-
-</label>
- </div>
 <button class="submit-btn" type="submit" class="submit-btn">Wyślij</button>
         </form>
         <button  data-modal-close class="close-btn" type="button" >
@@ -531,6 +524,7 @@
             <span class="close-x">X</span>
             </button>
     </div>
+</div>
 </div>
 <script src="./modal.js"></script>
 </body>

@@ -28,12 +28,12 @@ border-radius: 4px;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 outline: none;
 
-    :hover{
-        fill:#2196F3;
-        border: 1px solid #2196F3;
-        border-radius: 4px;
+//     &:hover{
+//         fill:#2196F3;
+//         border: 1px solid #2196F3;
+//         border-radius: 4px;
 
-}
+// }
 }
 
 
@@ -46,38 +46,40 @@ outline: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
     padding: 14.25px 32px;
+    outline: none;
 }
 }
 
 
 
-    .client__icons-container{
-        :hover{
+.client{
+.client__icons-container{
+            &:hover{
             fill:#2196F3;
-            border: 1px solid #2196F3;
             border-radius: 4px;
-
-    svg{
-            &:hover{
-                fill:#2196F3;
-                border: none;
-
-            .client__icons{
-            &:hover{
-                fill:#2196F3;
-                border: none;
-            }}}}}
-    :focus{
+            border: 1px solid #2196F3;
+a{
+    &:hover{
         fill:#2196F3;
-        border: 1px solid #2196F3;
-
-svg{
-        &:focus{
-            fill:#2196F3;
-            border: none;
-
+        border: none;
+        border-radius: 4px;
         .client__icons{
-        &:focus{
             fill:#2196F3;
-            border: none;
-        } } }}}}
+            border: none; 
+        }}}}}
+        .client__icons-container{
+            :focus{
+            fill:#2196F3;
+            border-radius: 4px;
+            // border: 1px solid #2196F3;       
+a{
+    &:focus{
+        fill:#2196F3;
+        border-radius: 4px;
+        .client__icons{
+            // border: 1px solid #2196F3;
+            fill:#2196F3;}
+
+        }}}}}
+
+
