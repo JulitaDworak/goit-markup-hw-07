@@ -791,6 +791,14 @@
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form-modal__form-inputs:focus-within {
+  fill: #2196F3;
+  border: 1px solid #2196F3;
+}
+.form-modal .form-modal__form-inputs:hover {
+  fill: #2196F3;
+  border: 1px solid #2196F3;
+}
 .form-modal__form-inputs-data {
   border: none;
   outline: none;
@@ -829,24 +837,8 @@
 .form-modal__form-inputs-comments:hover {
   border: 1px solid #2196F3;
 }
-.form-modal__form-inputs-comments:focus {
+.form-modal__form-inputs-comments:focus-within {
   border: 1px solid #2196F3;
-}
-
-.form-modal__form-inputs:hover {
-  fill: #2196F3;
-  border: 1px solid #2196F3;
-}
-.form-modal__form-inputs:hover .form-modal__form-icon :hover {
-  fill: #2196F3;
-  border: 1px solid #2196F3;
-}
-.form-modal__form-inputs:focus {
-  fill: #2196F3;
-  border: 1px solid #2196F3;
-}
-.form-modal__form-inputs:focus .form-modal__form-icon {
-  fill: #2196F3;
 }
 
 .modal {
@@ -1032,7 +1024,7 @@
   opacity: 0;
 }
 
-.chbx-form__priv-accept-click:checked .chbx-form__own-click {
+.chbx-form__priv-accept [type=checkbox]:checked + .chbx-form__own-click {
   opacity: 1;
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);

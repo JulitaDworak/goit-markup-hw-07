@@ -78,7 +78,20 @@ transition-property: fill, color, border;
 transition-duration: default;
 transition-timing-function: default;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:focus-within{
+  fill: #2196F3;
+  border: 1px solid #2196F3;
 }
+}
+
+.form-modal__form-inputs{
+  &:hover{
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+  }
+}
+
 
 &__form-inputs-data{
   border: none;
@@ -115,59 +128,12 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         &:hover{
             border: 1px solid #2196F3;
         }
-        &:focus{
+        &:focus-within{
             border: 1px solid #2196F3;
         }
 
       }
 }
-
-
-
-// .form-modal__form-inputs{
-//    &:hover{
-//     fill: #2196F3;
-//     border: 1px solid #2196F3;
-  
-//    .form-modal__form-icon{
-//     :hover{
-//     fill: #2196F3;
-//     border: 1px solid #2196F3;}
-//    }}
-
-//    &:focus{
-//     fill: #2196F3;
-//     border: 1px solid #2196F3;
-    
-//    .form-modal__form-icon{
-//     fill: #2196F3;
-
-//    }
-// }
-// }
-
-.form-modal__form-inputs{
-  &:hover{
-   fill: #2196F3;
-   border: 1px solid #2196F3;
- 
-  .form-modal__form-icon{
-   :hover{
-   fill: #2196F3;
-   border: 1px solid #2196F3;}
-  }}
-
-  &:focus{
-   fill: #2196F3;
-   border: 1px solid #2196F3;
-   
-  .form-modal__form-icon{
-   fill: #2196F3;
-
-  }
-}
-}
-
 
 
 .modal{
@@ -304,8 +270,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 16px;
   height: 15px;
 
-  // &:checked 
-  // {.chbx-form__own-click{
+  // &:checked{
+  // .chbx-form__own-click{
   //   opacity: 1;
   //   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   // }
@@ -318,47 +284,13 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
     }
 
-.chbx-form__priv-accept-click{
-&:checked {
-.chbx-form__own-click{
-  opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-}
-}
-    
-
-
-    // .chbx-form__priv-accept input[type="checkbox"]{
-    //   background-color: #FFFFFF;
-    //   margin: 0;
-    //   appearance: none;
-    //   border: 2px solid #212121 ;
-    //   border-radius: 2px;
-    //   width: 16px;
-    //   height: 15px;
-    //   }
-    
-      // .chbx-form__priv-accept svg{
-      //   position: absolute;
-      //   left:0px;
-      //   opacity:0;
-    
-      // }
-    
-      // .chbx-form__priv-accept input[type="checkbox"]:checked +svg{
-      //   opacity: 1;
-      //   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      // }
-
-// .chbx-label{
-//   display: flex;
-//   position: relative;
-//   align-items: center;
-//   width: 100%;
+// .chbx-form__priv-accept-click:checked + .chbx-form__own-click{
+//   opacity: 1;
+//   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 // }
 
-// .chbx-text{
-//   display: flex;
-//   position: relative;
-// align-items: center;
-//   margin-top: 20px;
+.chbx-form__priv-accept [type="checkbox"]:checked + .chbx-form__own-click{
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}   
+
