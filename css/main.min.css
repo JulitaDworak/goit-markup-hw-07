@@ -492,6 +492,10 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
+.client__icons-container:focus {
+  fill: #2196F3;
+  border: 1px solid #2196F3;
+}
 .client__icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -512,6 +516,10 @@
   padding: 14.25px 32px;
   outline: none;
 }
+.client__icons:focus {
+  fill: #2196F3;
+  border: 1px solid #2196F3;
+}
 
 .client .client__icons-container:hover {
   fill: #2196F3;
@@ -526,17 +534,6 @@
 .client .client__icons-container:hover a:hover .client__icons {
   fill: #2196F3;
   border: none;
-}
-.client .client__icons-container :focus {
-  fill: #2196F3;
-  border-radius: 4px;
-}
-.client .client__icons-container :focus a:focus {
-  fill: #2196F3;
-  border-radius: 4px;
-}
-.client .client__icons-container :focus a:focus .client__icons {
-  fill: #2196F3;
 }
 
 .filter-btn__container {
